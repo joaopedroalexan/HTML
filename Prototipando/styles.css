@@ -1,0 +1,63 @@
+/*Precisa ser desse jeito: Escreva seu comentário*/
+
+/*Seletor Universal - Seleciona todos os elementos da página e aplica estilos comuns padronizados*/
+* {
+    margin: 0; /*Remove qualquer margem especifica na página*/
+    padding: 0; /*Remove o enchimento de qualquer elemento da página*/
+    box-sizing: border-box; /*Inclui bordas e preenchimentos no cálculo da largura e altura dos elementos*/
+/*Fechamento do estilo universal*/
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;/*Define a fonte da pagina como Verdana, com alternativas de Geneva, Tahoma ou sans-serif*/
+    background-color: #824CDB;
+    color: snow;
+
+}/*Fechamento do estilo do body*/
+
+header {
+    background-color: #500EBD;
+    height: 100px;
+    text-align: center;
+
+}/*Fechamento do estilo do header*/
+
+main {
+    padding: 40px;
+    text-align: center;
+}/*Fechamento do estilo do main*/
+
+main img {
+    max-width: 225px;/*Define a largura máxima das imagens dentro da main como 225px*/
+
+}/*Fechamento do estilo das imagens do main*/
+
+section {
+    margin: 20px 0px;/*Define a margem superior e inferior das seções como 20px e 0 para as laterais*/
+}/*Fechamento do estilo da section*/
+
+header button {
+    right: 20px; /*Alinha o botão à direita, com 20px de distância da borda direita da página*/
+    top: 25px;/*Alinha o botão ao topo, com 20px de distância da borda de cima da página*/
+    position: absolute; /*Posiciona o botão de forma absoluta em relação ao header*/
+    background-color: #C53FD8;
+    color:snow;
+    padding: 10px 20px;/*Define o espaço interno do botão em 10px (vertical) e 20px (horizontal)*/
+    border-radius: 10px;/*Arredonda os cantos do botão*/
+    border: none;/*Torna a borda None(nada)*/
+    cursor: pointer;
+    scale: 125%;
+}
+
+footer {
+    background-color: #500EBD;
+    height: 100px;
+    text-align: center;
+    bottom: 0px;
+    position: absolute; /*Posiciona o botão de forma absoluta em relação ao header*/
+    width:100%;;/*Define a largura do footer como toda a tela (100%)*/
+}/*Fechamento do estilo do footer*/
+
+
+
+

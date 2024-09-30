@@ -1,0 +1,29 @@
+*{
+    background-color:deepskyblue;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilização por nome de tag*/
+h1{
+    background-color:ghostwhite;
+    color: black;
+}
+
+header{
+    background-color: ghostwhite;
+    text-align: center;
+}
+
+/*Estilização por nome de classe*/
+.titulo{
+    background-color: rgb(255, 255, 75);
+}
+
+/*Estilização por seletor de id*/
+#destaque{
+    background-color: blueviolet;
+    color: aquamarine;
+}
